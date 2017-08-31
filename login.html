@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Đăng nhập</title>
+	<!-- include bootstrap 4 stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- include fonts helvetical Neue -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<!-- include website stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
+	<div id="wrapper" class="d-flex flex-column login_page">
+		<header id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<a id="logo" href="#">
+							<img src="images/logo.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end #header -->
+		<section id="content">
+			<div class="container h-100">
+				<div class="row h-100 justify-content-end align-items-center">
+					<div class="col-md-4">
+						<form action="" id="loginForm">
+							<img src="images/logo_slearning.png" alt="" class="logo_slearning">
+							<div class="form-row">
+								<input type="text" id="userName" placeholder="Tên đăng nhập">
+							</div>
+							<div class="form-row">
+								<input type="text" id="passWord" placeholder="Mật khẩu">
+							</div>
+							<div class="form-row d-flex action justify-content-between">
+								<div class="remember_password">
+									<label class="neo_check">
+										<input type="checkbox">
+										<span>Ghi nhớ mật khẩu</span>
+									</label>
+								</div>
+								<a href="">Quên mật khẩu</a>
+							</div>
+							<button class="float-right login_button">Đăng nhập</button>
+						</form>
+						<a class="pone_logo" href="#"><img src="images/one.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end #content -->
+	</div>
+	<!-- include plugin jquery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+	<!-- include bootstrap plugin -->
+	<script scr="js/bootstrap.min.js"></script>
 </body>
 </html>

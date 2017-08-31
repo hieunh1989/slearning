@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Tìm kiếm khóa học</title>
+	<!-- include bootstrap 4 stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- include fonts -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- include owlCarousel 2 stylesheet -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<!-- include bootstrap select stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap-select.min.css">
+	<!-- include website stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="wrapper" class="search_course">
+		<header id="header">
+			<div class="header_top">
+				<div class="container">
+					<div class="col-md-12 d-flex justify-content-end">
+						<div class="text-uppercase">
+							<a class="text-white" href="">khóa học</a>
+							<div class="dropdown d-inline">
+								<button class="btn btn-link text-white user_settings" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fa fa-user-circle" aria-hidden="true"></i>
+									<span>admin</span>
+								</button>
+								<div class="dropdown-menu dropdown-menu-right">
+									<div class="header d-flex flex-row">
+										<div class="avatar"></div>
+										<div class="text">
+											<p class="name">Admin 1</p>
+											<a href="">Hồ sơ</a>
+											<a href=""><strong>Đăng xuất</strong></a>
+										</div>
+									</div>
+									<ul class="user_menu">
+										<li>
+											<a href="">khóa học</a>
+										</li>
+										<li>
+											<a href="">Thống kê</a>
+										</li>
+										<li>
+											<a href="">hộp thư</a>
+										</li>
+										<li>
+											<a href="">
+												<span>thông báo</span>
+												<span class="value">1</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end .header top -->
+			<div class="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<a id="logo" href="#">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+						<div class="col-md-9">
+							<nav class="navbar py-lg-0 navbar-toggleable-md float-right">
+								<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="mainMenu">
+							    	<ul class="navbar-nav mr-auto">
+							    		<li class="nav-item active">
+							    			<a class="nav-link text-uppercase" href="#">khóa học</span></a>
+							    		</li>
+									    <li class="nav-item">
+									        <a class="nav-link text-uppercase" href="#">SẢN PHẨM - DỊCH VỤ</a>
+									    </li>
+									    <li class="nav-item">
+							    			<a class="nav-link" href="#">GIẢNG VIÊN</span></a>
+							    		</li>
+									    <li class="nav-item">
+									        <a class="nav-link text-uppercase" href="#">LIÊN HỆ</a>
+									    </li>
+								    </ul>
+								    <button class="btn btn-link toggle_search" type="button"><i class="fa fa-search"></i></button>
+								    <form action="" id="searchForm">
+								    	<input type="text" placeholder="Tìm kiếm...">
+								    	<button><i class="fa fa-search"></i></button>
+								    </form>
+							    </div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end .header -->
+		</header>
+		<!-- end #header -->
+		<section id="content">
+			<div class="fillter_course bg-white">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="fillter_course">
+								<ul class="nav nav-tabs flex-row" role="tablist">
+									<li class="nav-item col-md-6 px-0">
+										<a class="nav-link active" data-toggle="tab" href="#allCourse" role="tab">tất cả các khóa học</a>
+									</li>
+									<li class="nav-item col-md-6 px-0">
+										<a class="nav-link" data-toggle="tab" href="#join" role="tab">khóa học tôi tham gia</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="allCourse" role="tabpanel">
+										<form  class="d-flex flex-row" action="">
+											<div class="col-md-6 px-0 search_">
+												<input type="text" placeholder="Tìm kiếm khóa học">
+												<i class="fa fa-search"></i>
+											</div>
+											<div class="col-md-6 px-0">
+												<select class="selectpicker w-100" name="" id="">
+													<option value="">Chọn thứ tự</option>
+													<option value="">Chọn thứ tự 1</option>
+													<option value="">Chọn thứ tự 2</option>
+													<option value="">Chọn thứ tự 3</option>
+													<option value="">Chọn thứ tự 4</option>
+												</select>
+											</div>
+										</form>
+									</div>
+									<div class="tab-pane" id="join" role="tabpanel">
+										<form class="d-flex flex-row"  action="">
+											<div class="col-md-6 px-0">
+												<input type="text" placeholder="Tìm kiếm khóa học">
+											</div>
+											<div class="col-md-6 px-0">
+												<select class="selectpicker w-100" name="" id="">
+													<option value="">Chọn thứ tự</option>
+													<option value="">Chọn thứ tự 1</option>
+													<option value="">Chọn thứ tự 2</option>
+													<option value="">Chọn thứ tự 3</option>
+													<option value="">Chọn thứ tự 4</option>
+												</select>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 content">
+					
+						</div>
+						<div class="col-md-3 sidebar">
+							<div class="block block_sidebar">
+								<h3 class="title">Danh mục</h3>
+								<div class="fillter_list">
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>EVNNPC Văn hoá tổ chức</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>EVNNPC khách hàng</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>EVNNPC tổ chức và con người</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>EVNNPC dịch vụ xuất sắc</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>EVNNPC quản trị chung</span>
+									</label>
+								</div>
+							</div>
+							<div class="block block_sidebar">
+								<h3 class="title">giảng viên</h3>
+								<div class="fillter_list">
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Ông Lê Thanh Hải</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Bà Lê Phương Anh</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Ông Vũ Quốc Chính</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Bà Nguyễn Linh Trang</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Ông Nguyễn Thanh Lâm</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Ông Lê Thanh Hải</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Bà Lê Phương Anh</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Ông Vũ Quốc Chính</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Bà Nguyễn Linh Trang</span>
+									</label>
+									<label class="neo_select">
+										<input type="checkbox">
+										<span class="input_check"></span>
+										<span>Ông Nguyễn Thanh Lâm</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end #content -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="images/one.png" alt="">
+					</div>
+					<ul class="footer_menu">
+						<li>
+							<a href="">trang chủ</a>
+						</li>
+						<li>
+							<a href="">dịch vụ</a>
+						</li>
+						<li>
+							<a href="">liên hệ</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+	</div>
+	<!-- include plugin jquery -->
+	<script src="js/jquery-3.1.1.slim.min.js"></script>
+	<!-- include bootstrap plugin -->
+	<script src="https://v4-alpha.getbootstrap.com/assets/js/vendor/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- include owlCarousel2 -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- include bootstrap select -->
+	<script src="js/bootstrap-select.min.js"></script>
+	<script src="js/website.js"></script>
+</body>
+</html>

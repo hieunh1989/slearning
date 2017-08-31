@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url(../fonts/OTF/HelveticaNeue.otf),
+		 url(../fonts/TTF/helveticaneue.ttf);
+	font-weight: normal;	
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url(../fonts/OTF/HelveticaNeue-Italic.otf),
+		 url(../fonts/TTF/helveticaneueitalic.ttf);
+	font-weight: normal;	
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url(../fonts/OTF/HelveticaNeue-Light.otf),
+		 url(../fonts/TTF/helveticaneuelight.ttf);
+	font-weight: 300;	
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url(../fonts/OTF/HelveticaNeue-Bold.otf),
+		 url(../fonts/TTF/helveticaNeuebold.ttf);
+	font-weight: bold;	
+}
+
+::-webkit-input-placeholder {
+	font-family: "HelveticaNeue";
+	font-weight: 300;
+	font-size: 16px;
+}
+::-moz-placeholder {
+	font-family: "HelveticaNeue";
+	font-weight: 300;
+	font-size: 16px;
+}
+:-ms-input-placeholder {
+	font-family: "HelveticaNeue";
+	font-weight: 300;
+	font-size: 16px;
+}
+:-moz-placeholder {
+	font-family: "HelveticaNeue";
+	font-weight: 300;
+	font-size: 16px;
+}

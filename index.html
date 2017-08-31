@@ -2,9 +2,321 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Trang chủ</title>
+	<!-- include bootstrap 4 stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- include fonts -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- include owlCarousel 2 stylesheet -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<!-- include website stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
+	<div id="wrapper" class="home_page">
+		<header id="header">
+			<div class="header_top">
+				<div class="container">
+					<div class="col-md-12 d-flex justify-content-end">
+						<div class="text-uppercase">
+							<a class="text-white" href="">khóa học</a>
+							<div class="dropdown d-inline">
+								<button class="btn btn-link text-white user_settings" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fa fa-user-circle" aria-hidden="true"></i>
+									<span>admin</span>
+								</button>
+								<div class="dropdown-menu dropdown-menu-right">
+									<div class="header d-flex flex-row">
+										<div class="avatar"></div>
+										<div class="text">
+											<p class="name">Admin 1</p>
+											<a href="">Hồ sơ</a>
+											<a href=""><strong>Đăng xuất</strong></a>
+										</div>
+									</div>
+									<ul class="user_menu">
+										<li>
+											<a href="">khóa học</a>
+										</li>
+										<li>
+											<a href="">Thống kê</a>
+										</li>
+										<li>
+											<a href="">hộp thư</a>
+										</li>
+										<li>
+											<a href="">
+												<span>thông báo</span>
+												<span class="value">1</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end .header top -->
+			<div class="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<a id="logo" href="#">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+						<div class="col-md-9">
+							<nav class="navbar py-lg-0 navbar-toggleable-md float-right">
+								<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="mainMenu">
+							    	<ul class="navbar-nav mr-auto">
+							    		<li class="nav-item active">
+							    			<a class="nav-link text-uppercase" href="#">khóa học</span></a>
+							    		</li>
+									    <li class="nav-item">
+									        <a class="nav-link text-uppercase" href="#">SẢN PHẨM - DỊCH VỤ</a>
+									    </li>
+									    <li class="nav-item">
+							    			<a class="nav-link" href="#">GIẢNG VIÊN</span></a>
+							    		</li>
+									    <li class="nav-item">
+									        <a class="nav-link text-uppercase" href="#">LIÊN HỆ</a>
+									    </li>
+								    </ul>
+								    <button class="btn btn-link toggle_search" type="button"><i class="fa fa-search"></i></button>
+								    <form action="" id="searchForm">
+								    	<input type="text" placeholder="Tìm kiếm...">
+								    	<button><i class="fa fa-search"></i></button>
+								    </form>
+							    </div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end .header -->
+		</header>
+		<!-- end #header -->
+		<section id="banner">
+			<div id="slider" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#slider" data-slide-to="0" class="active"></li>
+					<li data-target="#slider" data-slide-to="1"></li>
+					<li data-target="#slider" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<a href="">
+							<img class="d-block img-fluid" src="images/banner_1.png" alt="First slide">
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a href="">
+							<img class="d-block img-fluid" src="images/banner_2.png" alt="First slide">
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a href="">
+							<img class="d-block img-fluid" src="images/banner_3.png" alt="First slide">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end #banner -->
+		<section id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 text-center column">
+						<img src="images/icon_1.png" alt="">
+						<h3>
+							<span>Quản trị chung</span>
+							<span>chuyên nghiệp</span>
+						</h3>
+					</div>
+					<div class="col-md-3 text-center column">
+						<img src="images/icon_2.png" alt="">
+						<h3>
+							<span>Khách hàng</span>
+							<span>là trung tâm</span>
+						</h3>
+					</div>
+					<div class="col-md-3 text-center column">
+						<img src="images/icon_3.png" alt="">
+						<h3>
+							<span>Quản trị</span>
+							<span>nguồn nhân lực</span>
+						</h3>
+					</div>
+					<div class="col-md-3 text-center column">
+						<img src="images/icon_4.png" alt="">
+						<h3>
+							<span>Văn hoá</span>
+							<span>tổ chức</span>
+						</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end featured -->
+		<section id="course">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="course">
+						<h2 class="text-center text-uppercase">Khóa học</h2>
+						<div class="owl-carousel">
+							<a class="item" href="#">
+								<h3 class="course_name">quản trị chung chuyên nghiệp</h3>
+								<img src="images/course_1.png" alt="">
+								<div class="text">
+									<div class="des">
+										<strong>Bài học:</strong><br/>
+										<span>Phương pháp phân tích giải quyết vấn đề theo quy trình khoa học</span>
+									</div>
+									<div class="teacher">
+										<div class="thumb"></div>
+										<span class="name">ông THIỀU KINH QUỲNH</span>
+									</div>
+								</div>
+							</a>
+							<a class="item" href="#">
+								<h3 class="course_name">quản trị chung chuyên nghiệp</h3>
+								<img src="images/course_1.png" alt="">
+								<div class="text">
+									<div class="des">
+										<strong>Bài học:</strong><br/>
+										<span>Phương pháp phân tích giải quyết vấn đề theo quy trình khoa học</span>
+									</div>
+									<div class="teacher">
+										<div class="thumb"></div>
+										<span class="name">ông THIỀU KINH QUỲNH</span>
+									</div>
+								</div>
+							</a>
+							<a class="item" href="#">
+								<h3 class="course_name">quản trị chung chuyên nghiệp</h3>
+								<img src="images/course_1.png" alt="">
+								<div class="text">
+									<div class="des">
+										<strong>Bài học:</strong><br/>
+										<span>Phương pháp phân tích giải quyết vấn đề theo quy trình khoa học</span>
+									</div>
+									<div class="teacher">
+										<div class="thumb"></div>
+										<span class="name">ông THIỀU KINH QUỲNH</span>
+									</div>
+								</div>
+							</a>
+							<a class="item" href="#">
+								<h3 class="course_name">quản trị chung chuyên nghiệp</h3>
+								<img src="images/course_1.png" alt="">
+								<div class="text">
+									<div class="des">
+										<strong>Bài học:</strong><br/>
+										<span>Phương pháp phân tích giải quyết vấn đề theo quy trình khoa học</span>
+									</div>
+									<div class="teacher">
+										<div class="thumb"></div>
+										<span class="name">ông THIỀU KINH QUỲNH</span>
+									</div>
+								</div>
+							</a>
+							<a class="item" href="#">
+								<h3 class="course_name">quản trị chung chuyên nghiệp</h3>
+								<img src="images/course_1.png" alt="">
+								<div class="text">
+									<div class="des">
+										<strong>Bài học:</strong><br/>
+										<span>Phương pháp phân tích giải quyết vấn đề theo quy trình khoa học</span>
+									</div>
+									<div class="teacher">
+										<div class="thumb"></div>
+										<span class="name">ông THIỀU KINH QUỲNH</span>
+									</div>
+								</div>
+							</a>
+							<a class="item" href="#">
+								<h3 class="course_name">quản trị chung chuyên nghiệp</h3>
+								<img src="images/course_1.png" alt="">
+								<div class="text">
+									<div class="des">
+										<strong>Bài học:</strong><br/>
+										<span>Phương pháp phân tích giải quyết vấn đề theo quy trình khoa học</span>
+									</div>
+									<div class="teacher">
+										<div class="thumb"></div>
+										<span class="name">ông THIỀU KINH QUỲNH</span>
+									</div>
+								</div>
+							</a>
+							<a class="item" href="#">
+								<h3 class="course_name">quản trị chung chuyên nghiệp</h3>
+								<img src="images/course_1.png" alt="">
+								<div class="text">
+									<div class="des">
+										<strong>Bài học:</strong><br/>
+										<span>Phương pháp phân tích giải quyết vấn đề theo quy trình khoa học</span>
+									</div>
+									<div class="teacher">
+										<div class="thumb"></div>
+										<span class="name">ông THIỀU KINH QUỲNH</span>
+									</div>
+								</div>
+							</a>
+							<a class="item" href="#">
+								<h3 class="course_name">quản trị chung chuyên nghiệp</h3>
+								<img src="images/course_1.png" alt="">
+								<div class="text">
+									<div class="des">
+										<strong>Bài học:</strong><br/>
+										<span>Phương pháp phân tích giải quyết vấn đề theo quy trình khoa học</span>
+									</div>
+									<div class="teacher">
+										<div class="thumb"></div>
+										<span class="name">ông THIỀU KINH QUỲNH</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end course -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="images/one.png" alt="">
+					</div>
+					<ul class="footer_menu">
+						<li>
+							<a href="">trang chủ</a>
+						</li>
+						<li>
+							<a href="">dịch vụ</a>
+						</li>
+						<li>
+							<a href="">liên hệ</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+	</div>
+	<!-- include plugin jquery -->
+	<script src="js/jquery-3.1.1.slim.min.js"></script>
+	<!-- include bootstrap plugin -->
+	<script src="https://v4-alpha.getbootstrap.com/assets/js/vendor/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- include owlCarousel2 -->
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/website.js"></script>
 </body>
 </html>
