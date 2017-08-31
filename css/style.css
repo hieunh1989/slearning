@@ -42,6 +42,38 @@
     float: right;
     display: inline-block; }
 
+.home_page #header {
+  margin-bottom: 0; }
+.home_page #banner {
+  border-bottom: 5px solid #e8433a; }
+  .home_page #banner .item .text {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -555px;
+    padding: 30px;
+    background: rgba(3, 15, 44, 0.8);
+    width: 40%;
+    font-size: 22px; }
+    .home_page #banner .item .text h5 {
+      font-size: 26px;
+      font-style: italic;
+      font-weight: bold; }
+  .home_page #banner .owl-dots {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: -35px; }
+    .home_page #banner .owl-dots .owl-dot {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      background: #b5b5b5;
+      border-radius: 50%;
+      margin: 0 12px; }
+      .home_page #banner .owl-dots .owl-dot.active {
+        background: #19417e; }
 .home_page #featured {
   padding: 95px 0; }
   .home_page #featured .column h3 {
@@ -199,7 +231,7 @@
   font-size: 13px; }
 
 .search_course #content .main-content {
-  padding: 35px 0 50px;
+  padding: 70px 0 95px;
   background: #eeeeee;
   box-shadow: inset 0 5px 5px #dadada; }
 .search_course .block_sidebar .title {
@@ -271,7 +303,14 @@
   .search_course .fillter_course .tab-content .bootstrap-select .dropdown-menu a {
     color: #c2c2c2;
     display: block;
+    font-weight: 300;
     padding: 5px 20px; }
+  .search_course .fillter_course .tab-content .bootstrap-select .dropdown-menu .selected, .search_course .fillter_course .tab-content .bootstrap-select .dropdown-menu li:hover {
+    background: #19417e;
+    outline: none; }
+    .search_course .fillter_course .tab-content .bootstrap-select .dropdown-menu .selected a, .search_course .fillter_course .tab-content .bootstrap-select .dropdown-menu li:hover a {
+      color: white;
+      outline: none; }
   .search_course .fillter_course .tab-content .search_ {
     position: relative; }
     .search_course .fillter_course .tab-content .search_ input {
@@ -285,6 +324,64 @@
       text-align: center;
       line-height: 45px;
       font-size: 20px; }
+.search_course .main-content .content .key {
+  font-weight: bold;
+  font-size: 33px; }
+.search_course .main-content .content .count {
+  font-style: italic;
+  font-size: 15px;
+  color: #b1b1b1;
+  margin-bottom: 20px;
+  display: block; }
+.search_course .list_course .course_item {
+  margin-bottom: 30px; }
+  .search_course .list_course .course_item .thumb {
+    position: relative; }
+    .search_course .list_course .course_item .thumb img {
+      width: 100%; }
+    .search_course .list_course .course_item .thumb .category {
+      width: 100%;
+      border-top: 2px solid #eb1c23;
+      background: #19417e;
+      color: white;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      position: absolute;
+      padding: 10px 15px; }
+  .search_course .list_course .course_item .text {
+    background: white;
+    border-bottom: 2px solid #eb1c23; }
+    .search_course .list_course .course_item .text .course_name {
+      margin-top: 20px; }
+      .search_course .list_course .course_item .text .course_name a {
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #19417e; }
+    .search_course .list_course .course_item .text .meta_ {
+      height: 57px;
+      border-top: 1px solid #e8e8e8; }
+      .search_course .list_course .course_item .text .meta_ .teacher span {
+        font-size: 13px;
+        color: #19417e; }
+      .search_course .list_course .course_item .text .meta_ .teacher .thumb {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #dadada;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle; }
+        .search_course .list_course .course_item .text .meta_ .teacher .thumb img {
+          width: 100%;
+          height: auto; }
+      .search_course .list_course .course_item .text .meta_ .status {
+        font-style: italic;
+        font-size: 13px; }
+        .search_course .list_course .course_item .text .meta_ .status.color-default {
+          font-weight: bold;
+          font-style: normal; }
 
 .clearfix::after {
   display: block;
@@ -308,8 +405,14 @@
 .color-default {
   color: #19417e; }
 
+.color-white {
+  color: white; }
+
 .color-plum {
   color: #eb1c23; }
+
+.color-red {
+  color: #ff0000; }
 
 .bg-white {
   background: white; }

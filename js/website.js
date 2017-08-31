@@ -23,4 +23,10 @@ jQuery(function($){
 	        }
 	    }
 	})
+
+	$('#banner .owl-carousel').owlCarousel({
+	    loop:false,
+	    responsiveClass:true,
+	    items: 1
+	})
 })

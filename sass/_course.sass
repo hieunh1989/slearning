@@ -1,7 +1,7 @@
 .search_course
 	#content
 		.main-content
-			padding: 35px 0 50px
+			padding: 70px 0 95px
 			background: #eeeeee
 			box-shadow: inset 0 5px 5px #dadada
 	.block_sidebar
@@ -78,7 +78,14 @@
 					a 
 						color: #c2c2c2
 						display: block
+						font-weight: 300
 						padding: 5px 20px
+					.selected, li:hover
+						background: $color_default
+						outline: none
+						a 
+							color: white
+							outline: none
 			.search_
 				position: relative
 				input 
@@ -92,3 +99,65 @@
 					text-align: center
 					line-height: 45px
 					font-size: 20px
+	.main-content
+		.content 
+			.key 
+				font-weight: bold
+				font-size: 33px
+			.count 
+				font-style: italic
+				font-size: 15px
+				color: #b1b1b1
+				margin-bottom: 20px
+				display: block
+	.list_course 
+		.course_item
+			margin-bottom: 30px
+			.thumb
+				position: relative
+				img 
+					width: 100%
+				.category
+					width: 100%
+					border-top: 2px solid $color_default_1
+					background: $color_default
+					color: white 
+					text-transform: uppercase
+					font-size: 12px
+					font-weight: bold
+					position: absolute
+					padding: 10px 15px
+			.text 
+				background: white
+				border-bottom: 2px solid $color_default_1
+				.course_name
+					margin-top: 20px
+					a 
+						font-size: 20px
+						text-decoration: none
+						text-transform: uppercase
+						color: $color_default
+				.meta_
+					height: 57px
+					border-top: 1px solid #e8e8e8
+					.teacher
+						span 
+							font-size: 13px
+							color: $color_default
+						.thumb
+							width: 40px
+							height: 40px
+							border-radius: 50%
+							background: #dadada
+							display: inline-block
+							margin-right: 10px
+							vertical-align: middle
+							img 
+								width: 100%
+								height: auto
+					.status
+						font-style: italic
+						font-size: 13px
+						&.color-default
+							font-weight: bold
+							font-style: normal
