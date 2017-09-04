@@ -383,6 +383,42 @@
           font-weight: bold;
           font-style: normal; }
 
+.video_template .main_content {
+  padding: 70px 0 65px;
+  background: #eeeeee; }
+  .video_template .main_content .video iframe, .video_template .main_content .video video {
+    display: block; }
+  .video_template .main_content .description p {
+    font-size: 12px;
+    color: #6d6d6d; }
+  .video_template .main_content .text .header {
+    background: url(../images/bg_002.png) repeat right top; }
+    .video_template .main_content .text .header .main-header {
+      padding: 40px 60px 40px 30px;
+      background: url(../images/bg_001.png) no-repeat right top;
+      background-size: auto 100%; }
+    .video_template .main_content .text .header .text img {
+      margin: 0 auto;
+      display: block; }
+    .video_template .main_content .text .header .text p {
+      margin: 0;
+      color: #878787;
+      font-size: 12px; }
+    .video_template .main_content .text .header .text .name {
+      color: #19417e;
+      font-size: 15px;
+      margin: 10px 0 5px; }
+    .video_template .main_content .text .header .avatar {
+      width: 80px;
+      height: 80px;
+      background: grey;
+      border-radius: 7px;
+      margin-right: 20px; }
+  .video_template .main_content .text .description {
+    overflow-y: auto; }
+    .video_template .main_content .text .description .main_text {
+      padding: 20px 30px; }
+
 .clearfix::after {
   display: block;
   content: "";
