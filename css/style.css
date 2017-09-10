@@ -5,7 +5,8 @@
   background: url(../images/Login.jpg) no-repeat center center;
   background-size: cover; }
   #wrapper.login_page #header {
-    padding-top: 40px; }
+    padding-top: 40px;
+    box-shadow: none; }
 #wrapper #content {
   flex: 1; }
   #wrapper #content #loginForm {
@@ -415,7 +416,7 @@
       border-radius: 7px;
       margin-right: 20px; }
   .video_template .main_content .text .description {
-    overflow-y: auto; }
+    overflow-y: autohieunh0832; }
     .video_template .main_content .text .description .main_text {
       padding: 20px 30px; }
 
@@ -498,7 +499,7 @@
   border-bottom: 4px solid #eb1c23; }
 
 body {
-  font-family: "HelveticaNeue";
+  font-family: "lato";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.4; }

@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Regular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato/Lato-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/Lato/Lato-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Lato/Lato-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Lato/Lato-Regular.svg#svgLato-Regular') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Thin.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato/Lato-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato/Lato-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/Lato/Lato-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Lato/Lato-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Lato/Lato-Thin.svg#svgLato-Thin') format('svg'); /* Legacy iOS */
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Bold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato/Lato-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/Lato/Lato-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Lato/Lato-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Lato/Lato-Bold.svg#svgLato-Bold') format('svg'); /* Legacy iOS */
+	font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+	font-family: "lato";
+	font-weight: 300;
+	font-size: 16px;
+}
+::-moz-placeholder {
+	font-family: "lato";
+	font-weight: 300;
+	font-size: 16px;
+}
+:-ms-input-placeholder {
+	font-family: "lato";
+	font-weight: 300;
+	font-size: 16px;
+}
+:-moz-placeholder {
+	font-family: "lato";
+	font-weight: 300;
+	font-size: 16px;
+}
