@@ -1,4 +1,4 @@
-.teacher
+.teacher_template
 	.main_content
 		padding: 70px 0 65px
 		background: #eeeeee
@@ -20,6 +20,84 @@
 				.label
 					font-size: 12px
 					margin-bottom: 5px
+	.teacher_information
+		padding: 20px 0
+		background: white
+		.text
+			background: url(../images/bg_info_teacher.jpg) no-repeat left top 
+			background-size: cover
+			height: 100%
+			padding: 25px
+			color: white 
+			.label
+				font-weight: 500
+				font-size: 16px
+			.teacher_name 
+				text-transform: uppercase
+				font-size: 20px
+				font-weight: bold
+				margin: 0
+			.view_por
+				width: 120px
+				height: 38px
+				line-height: 38px
+				background: white
+				font-weight: bold
+				color: #c2c2c2
+				display: inline-block
+				text-align: center
+				text-decoration: none
+				font-size: 13px
+				@extend .transit
+				&:hover
+					background: $color_default
+					color: white
+		#form_fillter
+			.key
+				background: white
+				border: 2px solid #dadada
+				border-radius: 0
+				width: 100%
+				padding: 0 10px
+				height: 42px
+		.list_course
+			.item 
+				color: #333
+				text-decoration: none
+				background: white
+				border-bottom: 3px solid $color_default_1
+				display: block
+				img 
+					width: 100%
+				.text 
+					padding: 15px
+					background: white
+				.course_name
+					font-size: 12px
+					color: white
+					margin-bottom: 0
+					background: $color_default
+					padding: 10px 15px 
+					text-transform: uppercase
+					border-top: 2px solid $color_default_1
+				.des 
+					color: #8c8c8c
+					font-size: 13px
+					margin: 0 0 15px 0
+					span 
+						font-weight: 300
+				.teacher 
+					.thumb
+						height: 40px
+						width: 40px
+						border-radius: 50%
+						background: grey
+						display: inline-block
+						margin-right: 10px
+						vertical-align: middle
+					.name 
+						color: $color_yellow
+						font-size: 12px
 .single_teacher
 	.text 
 		height: 100%

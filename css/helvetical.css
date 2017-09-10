@@ -22,6 +22,13 @@
 
 @font-face {
 	font-family: "HelveticaNeue";
+	src: url(../fonts/OTF/HelveticaNeue-Medium.otf),
+		 url(../fonts/TTF/helveticaneuemedium.ttf);
+	font-weight: 500;	
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
 	src: url(../fonts/OTF/HelveticaNeue-Bold.otf),
 		 url(../fonts/TTF/helveticaNeuebold.ttf);
 	font-weight: bold;	

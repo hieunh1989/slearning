@@ -1,0 +1,33 @@
+.bootstrap-select
+	.dropdown-toggle
+		background: white
+		border: 2px solid #dadada
+		border-radius: 0
+		height: 42px
+		&:focus
+			outline: none !important
+			box-shadow: none
+		.filter-option
+			font-weight: 500
+			color: #626262
+			font-size: 15px
+			outline: none
+	.dropdown-menu
+		li 
+			a 	
+				background: white
+				display: block
+				width: 100%
+				font-weight: 300
+				.text
+					background: transparent
+					padding: 0 15px
+					height: auto
+					color: #626262
+			&.selected
+				outline: none
+				box-shadow: none 
+				a
+					background: $color_default
+					.text 
+						color: white

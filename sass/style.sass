@@ -1,10 +1,13 @@
 @import variable
+@import bootstrap_select
 @import login
 @import home
 @import teacher
 @import about
-@import course
 @import video
+@import course
+@import lesson
+
 
 .clearfix 
 	&::after
@@ -87,7 +90,7 @@ body
 		display: block
 #header
 	box-shadow: 0px 1px 5px #dadada
-	margin-bottom: 10px
+	// margin-bottom: 10px
 .header_top
 	background: $color_default
 	height: 34px
@@ -229,13 +232,13 @@ body
 				width: 100%
 
 .page_title 
-		background: $color_default
-		font-weight: bold
-		font-size: 20px
-		color: white
-		margin: 0
-		padding: 30px 0
-		text-transform: uppercase
+	background: $color_default
+	font-weight: bold
+	font-size: 20px
+	color: white
+	margin: 0
+	padding: 30px 0
+	text-transform: uppercase
 
 #footer
 	background: transparent url('../images/bg_footer.png') left top repeat

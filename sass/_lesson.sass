@@ -1,0 +1,111 @@
+.lesson_template
+	#header
+		margin-bottom: 0
+	.main_content
+		padding: 40px 0 65px
+		background: #eeeeee
+	.sidebar-right
+		.title
+			background: $color_default
+			font-weight: bold 
+			font-size: 13px
+			color: white
+			text-transform: uppercase
+			line-height: 45px
+			height: 45px
+			text-align: center
+			margin: 0
+			font-weight: 500
+		.content 
+			padding: 20px 30px
+	.sidebar-left
+		.header
+			position: relative
+			.title
+				color: white
+				border-top: 2px solid $color_default_1
+				text-transform: uppercase
+				font-size: 15px
+				margin: 0
+				background: $color_default
+				line-height: 40px
+				height: 42px
+				padding: 0 15px
+				font-weight: 500
+				margin: 0
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+			img 
+				width: 100%
+		.content 
+			padding: 15px
+			.title
+				color: $color_default
+				font-size: 16px
+				text-transform: uppercase
+				font-weight: 500
+				position: relative
+				span 
+					background: white
+					display: inline-block
+					position: relative
+					z-index: 10
+					padding: 0 5px 0 0
+				&:after
+					content: ''
+					display: inline-block
+					height: 1px
+					background: #e7e7e7
+					position: absolute
+					width: 100%
+					left: 0
+					bottom: 5px
+			.sub_tt
+				color: $color_default
+				font-size: 20px
+				font-weight: bold
+	.content
+		.breadcrumb
+			font-size: 11px
+			background: white 
+			margin: 0
+			padding: 15px
+			a 
+				color: #febd33
+				text-transform: uppercase
+				&:after
+					content: '/'
+					display: inline-block
+					margin: 0 5px
+			span 
+				display: block 
+				color: $color_default
+				text-transform: uppercase
+		.main 
+			padding: 15px
+			.title 
+				font-weight: bold
+				color: $color_default
+				font-size: 25px
+			.list_lesson
+				margin: 0 -10px
+				.item_lesson
+					padding: 7px 0
+					.icon
+						color: $color_default
+						font-size: 10px
+						width: 20px
+						text-align: center
+						.fa-pencil-square-o
+							font-size: 14px
+							vertical-align: -3px
+					.time
+						padding: 0 20px
+						color: #7c7c7c
+						font-size: 13px
+					.title
+						font-size: 13px
+						color: #7c7c7c
+						font-weight: normal
